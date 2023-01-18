@@ -25,6 +25,8 @@ img {
 
 /* barbi */
 
+/*{border:1px dotted red;} */
+
 body{
     background-color:#e6ded8;
 }
@@ -33,11 +35,13 @@ header nav ul{
     display: flex;
     font-weight: 600;
     justify-content: space-between;
-    width:50%;
+    width:70vw;
     margin:0 auto;
 }
+header nav ul li:hover{
+  text-decoration:overline;
+}
 header nav{
-    margin-bottom:2em;
     font-size: 0.8em;
     text-transform: uppercase;
 }
@@ -48,20 +52,29 @@ header{
 .card{
     border: 1px solid rgba(0,0,0,0.5);
     padding:2em;
-    display: flex;
-    justify-content: space-between;
-    width:50%;
+    width:70vw;
     margin:0 auto;
 }
 .foto-perfil{
-    width:35%;
+    width:25%;
 }
 .foto-perfil img{
     border-radius: 100%;
+    border:3px solid white;
 }
 
-.perfil{
+.info-perfil{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+}
+
+.perfil{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom:2em;
+}
+
+article h1, article h2{
+  margin:1em 0;
 }
