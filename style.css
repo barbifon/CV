@@ -1,0 +1,67 @@
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* barbi */
+
+body{
+    background-color:#e6ded8;
+}
+
+header nav ul{
+    display: flex;
+    font-weight: 600;
+    justify-content: space-between;
+    width:50%;
+    margin:0 auto;
+}
+header nav{
+    margin-bottom:2em;
+    font-size: 0.8em;
+    text-transform: uppercase;
+}
+header{
+    padding:2em;
+}
+
+.card{
+    border: 1px solid rgba(0,0,0,0.5);
+    padding:2em;
+    display: flex;
+    justify-content: space-between;
+    width:50%;
+    margin:0 auto;
+}
+.foto-perfil{
+    width:35%;
+}
+.foto-perfil img{
+    border-radius: 100%;
+}
+
+.perfil{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
