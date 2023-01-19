@@ -23,7 +23,7 @@ function mostrarExperiencia() {
 function mostrarEducacion() {
     infopersonal.style.display = "none"
     experiencia.style.display = "none"
-    educacion.style.display = "block"
+    educacion.style.display = "grid"
     intereses.style.display = "none"
     carta.style.display = "none"
 }

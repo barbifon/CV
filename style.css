@@ -97,6 +97,10 @@ header {
   justify-content: space-between;
 }
 
+.info-perfil a>img{
+  height: 2em;
+}
+
 .perfil {
   display: flex;
   justify-content: space-between;
@@ -136,7 +140,16 @@ article h2 {
   justify-content: space-around;
 }
 
+.educacion{
+  display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.educac
+
 .educacion p{
   margin-bottom: 1em;
   
+}
+.educacion li{
+  margin-left:1.2em;  
 }
