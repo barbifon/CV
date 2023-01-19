@@ -8,17 +8,18 @@
     <title>CV - Bárbara Fontanella</title>
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="logo.jpg">
+    <script defer src="index.js"></script>
 </head>
 
 <body>
     <header>
         <nav>
             <ul>
-                <li>Información personal</li>
-                <li>Experiencia laboral</li>
-                <li>Educación</li>
-                <li>Intereses</li>
-                <li>Carta de presentación</li>
+                <li onclick="mostrarInfoPersonal()">Información personal</li>
+                <li onclick="mostrarExperiencia()">Experiencia laboral</li>
+                <li onclick="mostrarEducacion()">Educación</li>
+                <li onclick="mostrarIntereses()">Intereses</li>
+                <li onclick="mostrarCarta()">Carta de presentación</li>
             </ul>
         </nav>
     </header>
@@ -44,31 +45,33 @@
 
 
 
-            <article class="infopersonal">
+            <article id="infopersonal" class="infopersonal">
                 <p>Soy una persona proactiva, organizada y emprendedora. Busco incorporarme a una empresa líder dónde
                     pueda
                     desarrollarme profesionalmente y retribuirlo a la empresa en calidad de servicio</p>
                 <h2>Contacto</h2>
-                <ul>
-                    <li>(011) 31059422 </li>
-                    <li>bfontanella@estudiantes.unsam.edu.ar</li>
-                    <li>Fecha de nacimiento: 21/12/1997</li>
-                    <li>Ramos Mejía, Buenos Aires</li>
-                </ul>
-                <h2>Habilidades</h2>
+                <div class="personalinfo">
+                    <ul class="contacto">
+                        <li> +54 (011) 31059422 </li>
+                        <li>bfontanella@estudiantes.unsam.edu.ar</li>
+                        <li>Fecha de nacimiento: 21/12/1997</li>
+                        <li>Ramos Mejía, Buenos Aires</li>
+                    </ul>
+                    <h2>Habilidades</h2>
 
-                <ul>
-                    <li>Gestión de crisis</li>
-                    <li>Redacción y elocuencia </li>
-                    <li>Control de calidad</li>
-                    <li>Manejo de estrés</li>
-                    <li>Liderazgo</li>
-                    <li>Adaptación al cambio</li>
-                </ul>
+                    <ul class="habilidades">
+                        <li>Gestión de crisis</li>
+                        <li>Redacción y elocuencia </li>
+                        <li>Control de calidad</li>
+                        <li>Manejo de estrés</li>
+                        <li>Liderazgo</li>
+                        <li>Adaptación al cambio</li>
+                    </ul>
+                </div>
 
             </article>
 
-            <article class="experiencia">
+            <article id="experiencia" class="experiencia">
                 <h1>Experiencia Laboral</h1>
                 <h2>Team Leader Banco Nación</h2>
                 <h3>Convenio UNSAM-NSSA, Nov 2021 - Nov 2022</h3>
@@ -102,7 +105,7 @@
 
             </article>
 
-            <article class="educacion">
+            <article id="educacion" class="educacion">
 
                 <section class="formacion">
                     <h1>Formación Académica</h1>
@@ -152,7 +155,7 @@
 
             </article>
 
-            <article class="intereses">
+            <article id="intereses" class="intereses">
                 <section class="intereses">
                     <H2>Próximos conocimientos a consolidar</H2>
                     <ul>
@@ -166,16 +169,16 @@
                 <section class="hobbies">
                     <h2>Hobbies</h2>
                     <ul>
-                    <li>Pintura al óleo</li>
-                    <li>Artista del tatuaje</li>
-                    <li>Collage analógico</li>
-                </ul>            
+                        <li>Pintura al óleo</li>
+                        <li>Artista del tatuaje</li>
+                        <li>Collage analógico</li>
+                    </ul>
                 </section>
 
 
             </article>
 
-            <article class="Carta">
+            <article id="carta" class="Carta">
                 <h2>Carta de presentacion</h2>
                 <p>
                     Estimado/as <br>

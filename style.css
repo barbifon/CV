@@ -24,7 +24,7 @@ img {
   height: auto;
 }
 
-/* barbi */
+/* mi estilo */
 
 /*{border:1px dotted red;} */
 
@@ -86,3 +86,14 @@ article h1, article h2{
   margin:1em 0;
 }
 
+
+.personalinfo ul{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+
+#infopersonal, #experiencia, #educacion, #intereses, #carta {
+  display: none;
+}
