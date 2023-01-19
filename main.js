@@ -32,7 +32,7 @@ function mostrarIntereses() {
     infopersonal.style.display = "none"
     experiencia.style.display = "none"
     educacion.style.display = "none"
-    intereses.style.display = "block"
+    intereses.style.display = "flex"
     carta.style.display = "none"
 }
 

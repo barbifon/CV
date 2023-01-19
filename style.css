@@ -1,13 +1,25 @@
+/*reset de css */
 html {
   box-sizing: border-box;
   font-size: 16px;
 }
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: inherit;
 }
 
-body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
   margin: 0;
   padding: 0;
   font-weight: normal;
@@ -15,7 +27,8 @@ body, h1, h2, h3, h4, h5, h6, p, ol, ul {
   font-style: italic;
 }
 
-ol, ul {
+ol,
+ul {
   list-style: none;
 }
 
@@ -28,72 +41,87 @@ img {
 
 /*{border:1px dotted red;} */
 
-body{
-    background-color:#e6ded8;
+body {
+  background-color: #e6ded8;
 }
 
 article ul li {
   list-style-type: circle;
 }
 
-header nav ul{
-    display: flex;
-    font-weight: 600;
-    justify-content: space-between;
-    width:70vw;
-    margin:0 auto;
-    font-style: normal;
-       
-}
-header nav ul li:hover{
-  text-decoration:overline;
-  }
-header nav{
-    font-size: 0.8em;
-    text-transform: uppercase;
-}
-header{
-    padding:2em;
-}
-
-.card{
-    border: 1px solid rgba(0,0,0,0.5);
-    padding:2em;
-    width:70vw;
-    margin:0 auto;
-}
-.foto-perfil{
-    width:25%;
-}
-.foto-perfil img{
-    border-radius: 100%;
-    border:3px solid white;
-}
-
-.info-perfil{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-
-.perfil{
+header nav ul {
   display: flex;
+  font-weight: 600;
   justify-content: space-between;
-  margin-bottom:2em;
+  width: 70vw;
+  margin: 0 auto;
+  font-style: normal;
+
 }
 
-article h1, article h2{
-  margin:1em 0;
+header nav ul li:hover {
+  text-decoration: overline;
 }
 
+header nav {
+  font-size: 0.8em;
+  text-transform: uppercase;
+}
 
-.personalinfo ul{
+header {
+  padding: 2em;
+}
+
+.card {
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  padding: 2em;
+  width: 70vw;
+  margin: 0 auto;
+}
+
+.foto-perfil {
+  width: 25%;
+}
+
+.foto-perfil img {
+  border-radius: 100%;
+  border: 3px solid white;
+}
+
+.info-perfil {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
 
+.perfil {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2em;
+}
 
-#infopersonal, #experiencia, #educacion, #intereses, #carta {
+article h1,
+article h2 {
+  margin: 1em 0;
+}
+
+
+.personalinfo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+#infopersonal,
+#experiencia,
+#educacion,
+#intereses,
+#carta {
   display: none;
+}
+
+.intereses {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }
