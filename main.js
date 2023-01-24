@@ -23,7 +23,11 @@ function mostrarExperiencia() {
 function mostrarEducacion() {
     infopersonal.style.display = "none"
     experiencia.style.display = "none"
-    educacion.style.display = "grid"
+    if (window.innerWidth > 930) {
+        educacion.style.display = "grid"
+    } else {
+        educacion.style.display = "block"
+    }
     intereses.style.display = "none"
     carta.style.display = "none"
 }
@@ -32,7 +36,11 @@ function mostrarIntereses() {
     infopersonal.style.display = "none"
     experiencia.style.display = "none"
     educacion.style.display = "none"
-    intereses.style.display = "flex"
+    if (window.innerWidth > 930) {
+        intereses.style.display = "flex"
+    } else {
+        intereses.style.display = "block"
+    }
     carta.style.display = "none"
 }
 

@@ -97,7 +97,7 @@ header {
   justify-content: space-between;
 }
 
-.info-perfil a>img{
+.info-perfil a>img {
   height: 2em;
 }
 
@@ -140,16 +140,54 @@ article h2 {
   justify-content: space-around;
 }
 
-.educacion{
+.educacion {
   display: grid;
-    grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
 }
-.educac
 
-.educacion p{
+
+.educacion p {
   margin-bottom: 1em;
-  
+
 }
-.educacion li{
-  margin-left:1.2em;  
+
+.educacion li {
+  margin-left: 1.2em;
+}
+
+
+
+@media (max-width: 930px) {
+
+  header {
+    width: 30%;
+    flex-direction: row;
+
+  }
+
+  header nav ul {
+    display: block;
+  }
+
+  header nav ul li {
+    padding-bottom: 2em;
+  }
+
+  .card {
+    width: 90%;
+  }
+
+  .foto-perfil {
+    width: 30%;
+  }
+
+  .info-perfil {
+    font-size: 0.7em;
+  }
+
+  .personalinfo,
+  .educacion,
+  .intereses {
+    display: block;
+  }
 }
