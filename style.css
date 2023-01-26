@@ -57,6 +57,7 @@ header nav ul {
   width: 70vw;
   margin: 0 auto;
   font-style: normal;
+  cursor: pointer;
 
 }
 
@@ -155,6 +156,11 @@ article h2 {
   margin-left: 1.2em;
 }
 
+a:-webkit-any-link {
+  color: black;
+  cursor: pointer;
+  text-decoration: none;
+}
 
 
 @media (max-width: 930px) {
